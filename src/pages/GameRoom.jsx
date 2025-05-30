@@ -6,7 +6,7 @@ import Confetti from 'react-confetti';
 import { useWindowSize } from 'react-use';
 import { useNavigate } from 'react-router-dom';
 
-const socket = io('http://localhost:3001');
+const socket = io('https://corporate-bingo-server.onrender.com');
 
 // ===== INLINE STYLES =====
 const styles = {
